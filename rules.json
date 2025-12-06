@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1001",
+        "name": "SSH Brute Force Attack",
+        "mitre": "T1110",
+        "pattern": "Failed password",
+        "threshold": 5,
+        "severity": "High"
+    },
+    {
+        "id": "1002",
+        "name": "Invalid User Login Attempt",
+        "mitre": "T1110.001",
+        "pattern": "Invalid user",
+        "threshold": 3,
+        "severity": "Medium"
+    }
+]
